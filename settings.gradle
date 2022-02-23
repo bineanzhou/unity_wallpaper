@@ -1,0 +1,5 @@
+include ':launcher',
+        ':unityLibrary'
+
+project(":launcher").projectDir= new File(rootDir, "android/launcher")
+project(":unityLibrary").projectDir= new File(rootDir, "android/unityLibrary")
